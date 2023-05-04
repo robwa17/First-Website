@@ -1,0 +1,90 @@
+/* Style the navigation bar */
+.navbar {
+    font-family: Arial;
+    background-color: #777974;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Links inside the navigation bar */
+.navbar a {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #BEB399;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #878E7C;
+    color: #BEB399;
+}
+
+
+/* Background Color of body */
+body {
+    background-color: #BEB399;
+}
+
+/* Home page picture */
+.homepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* H1 Color */
+h1 {
+    font:  Arial, strong, large;
+    color: #AD8665;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* H2 Color */
+h2 {
+    font:  Arial, strong, large;
+    color: #F0D3B0;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* Home page font style */
+p {
+    text-align: center;
+}
+
+
+/* Styling for Links - Remove dot */
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Increase spacing between links */
+li {
+    margin: 5px 0;
+}
+
+
+/* Styling for Images page */
+* {
+    box-sizing: border-box;
+}
+
+/* Align images within the grid */
+.container a {
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+
+/* Align images into 3 rows 2 columns */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
